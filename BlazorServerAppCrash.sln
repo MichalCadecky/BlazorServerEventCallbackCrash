@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerAppCrash", "BlazorServerAppCrash.csproj", "{3377FBD5-E4AA-4F84-8B2C-BA444286B853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3377FBD5-E4AA-4F84-8B2C-BA444286B853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3377FBD5-E4AA-4F84-8B2C-BA444286B853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3377FBD5-E4AA-4F84-8B2C-BA444286B853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3377FBD5-E4AA-4F84-8B2C-BA444286B853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4284544-004E-4559-ADDF-A4A2D01B966A}
+	EndGlobalSection
+EndGlobal

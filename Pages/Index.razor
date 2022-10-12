@@ -1,0 +1,27 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<button @onclick="ClickedAsync">Click me</button>
+<ComponentWithEventCallback @ref="component" SomethingHappened="DoAsyncStuff"></ComponentWithEventCallback>
+
+@code {
+    ComponentWithEventCallback? component = null;
+
+    public async Task ClickedAsync()
+    {
+        await Task.Delay(1000).ConfigureAwait(false);
+        await component!.DoSomething();
+    }
+
+    public async Task DoAsyncStuff()
+    {
+        await Task.Delay(500);
+    }
+}

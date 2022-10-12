@@ -1,0 +1,13 @@
+﻿<p>Something to render</p>
+
+@code {
+    [Parameter] public EventCallback SomethingHappened { get; set; }
+
+    public async Task DoSomething()
+    {
+        if (SomethingHappened.HasDelegate)
+        {
+            await SomethingHappened.InvokeAsync();
+        }
+    }
+}
